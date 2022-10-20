@@ -7,6 +7,7 @@ Kaggle created a fictitious event in the year 2912 where "Spaceship Titanic" is 
 In this competition your task is to predict whether a passenger was transported to an alternate dimension during the Spaceship Titanic's collision with the spacetime anomaly. To help you make these predictions, you're given a set of personal records recovered from the ship's damaged computer system.
 
 **File and Data Field Descriptions**
+
 **train.csv** - Personal records for about two-thirds (~8700) of the passengers, to be used as training data.
 *PassengerId - A unique Id for each passenger. Each Id takes the form gggg_pp where gggg indicates a group the passenger is travelling with and pp is their number within the group. People in a group are often family members, but not always.
 *HomePlanet - The planet the passenger departed from, typically their planet of permanent residence.
