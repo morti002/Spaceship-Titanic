@@ -2,10 +2,10 @@
 Spaceship Titanic Competition from Kaggle started on Thursday, October 20th, 2022
 
 Kaggle created a fictitious event in the year 2912 where "Spaceship Titanic" is an interstellar passenger liner launched with almost 13,000 passengers on board, the vessel set out on its maiden voyage transporting emigrants from our solar system to three newly habitable exoplanets orbiting nearby stars.  While rounding Alpha Centauri en route to its first destination—the torrid 55 Cancri E—the unwary Spaceship Titanic collided with a spacetime anomaly hidden within a dust cloud. Sadly, it met a similar fate as its namesake from 1000 years before. Though the ship stayed intact, almost half of the passengers were transported to an alternate dimension. To help rescue crews and retrieve the lost passengers, you are challenged to predict which passengers were transported by the anomaly using records recovered from the spaceship’s damaged computer system.
-
+***
 ## Dataset Description
 In this competition your task is to predict whether a passenger was transported to an alternate dimension during the Spaceship Titanic's collision with the spacetime anomaly. To help you make these predictions, you're given a set of personal records recovered from the ship's damaged computer system.
-
+***
 ##File and Data Field Descriptions
 
 **train.csv** - Personal records for about two-thirds (~8700) of the passengers, to be used as training data.
@@ -29,11 +29,10 @@ In this competition your task is to predict whether a passenger was transported 
 *Name - The first and last names of the passenger.
 
 *Transported - Whether the passenger was transported to another dimension. This is the target, the column you are trying to predict.
-
+***
 
 **test.csv** - Personal records for the remaining one-third (~4300) of the passengers, to be used as test data. Your task is to predict the value of Transported for the passengers in this set.
-
-
+***
 **sample_submission.csv** - A submission file in the correct format.
 
 *PassengerId - Id for each passenger in the test set.
